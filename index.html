@@ -5,9 +5,6 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
-      a {
-        color: #f00;
-      }
       html, body {
         margin: 0;
         padding: 0;
@@ -16,16 +13,26 @@
         font-size: 7vw;
         margin-top: 0;
       }
+      a {
+        color: #f00;
+      }
+      h2 {
+        font-size: 30px;
+      }
 
       /* HERO STYLES */
       .full-hero {
         background-color: #c7dbfc;
+        height: 50vh;
       }
 
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
         color: blue;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
       }
 
       /* BIO STYLES */
@@ -52,13 +59,13 @@
       <h1>I'm an h1</h1>
       <ul>
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/">Link</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/">Link</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/">Link</a>
         </li>
       </ul>
     </div>
@@ -66,7 +73,7 @@
     <div class="bio-wrapper">
       <div class="bio-box">
         <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">here</a>
+        <a href="https://twitter.com/mhartl" class="social-link show">here</a>
         <div class="bio-copy">
           <p>
             Known for his dazzling charm, rapier wit, and unrivaled humility,
