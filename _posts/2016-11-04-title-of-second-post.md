@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is the title of the second post
-postHero: https://placekitten.com/g/400/200
+postHero: /images/shark.jpg
 author: Nathan
 authorTwitter: https://twitter.com/mhartl
 gravatar: https://gravatar.com/avatar/75d501f82fbaae1c99f8d7026fe8e784
